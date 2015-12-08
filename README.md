@@ -18,4 +18,13 @@ And you must add them to the PATH.<br>
  And you MUST ADD THE FOLDER OF THE COMPILER IN THE PATH!<br>
  (For example:C:\\Program Files (x86)\\MinGW64\\bin\\)<br>
 <br>
+
+
+I have this thought is because I saw kriscross07 wrote a gpp-compiler for atom, and I begin to think why not write a compiler plugin for the most popular languages?
+
+So here first Thanks to the kriscross07. His repo:https://github.com/kriscross07/atom-gpp-compiler.<br>
+
+And many compiler not only have compile and run but also have only compiler, so I added it to the repo.
+
+Any other thought or bug please tell me then I can do a little bit change for you to use the atom more convenient.
 ![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
