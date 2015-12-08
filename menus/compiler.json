@@ -1,0 +1,45 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Only Compile(F4)",
+        "command": "compiler:compile"
+      },{
+        "label": "Compile and run(F5)",
+        "command": "compiler:compileandrun"
+      }
+    ],
+    ".tree-view .file > .name": [
+      {
+        "label": "Compile",
+        "command": "compiler:treeCompile"
+      },
+      {
+        "label": "Compile and run",
+        "command": "compiler:treeCompileandrun"
+      }
+    ]
+  },
+  "menu":[
+  {
+      "label": "Packages",
+      "submenu": [
+        {
+        "label": "Compiler",
+        "submenu": [
+          {
+            "label": "Compile(F4)",
+            "command": "compiler:compile"
+          },{
+            "label": "Compile and run(F5)",
+            "command": "compiler:compileandrun"
+          },{
+            "label": "Open/Close Compiler Effect",
+            "command": "compiler:fxonoff"
+          }
+        ]
+        }
+      ]
+    }
+  ]
+}

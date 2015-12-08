@@ -1,0 +1,6 @@
+{
+  "atom-text-editor": {
+    "f4": "compiler:compile",
+    "f5": "compiler:compileandrun"
+  }
+}

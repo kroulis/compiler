@@ -1,0 +1,29 @@
+{
+  "name": "compiler",
+  "version": "1.0.0",
+  "description": "Compile and run  C++, C, C#, Java, Lua, Pascal, PHP, Ruby, Python programs if you have the compiler.",
+  "author": "kroulis",
+  "main": "./index.js",
+  "contributors": [ "kriscross07", "kroulis" ],
+  "repository": "https://github.com/kroulis/compiler",
+  "keywords": [
+    "c++",
+    "g++",
+    "c",
+    "c#",
+    "java",
+    "lua",
+    "pascal",
+    "php",
+    "ruby",
+    "python",
+    "compile",
+    "gcc",
+    "mingw"
+  ],
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0"
+  },
+  "dependencies": {}
+}
